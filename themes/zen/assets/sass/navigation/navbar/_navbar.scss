@@ -1,0 +1,6 @@
+// Navbar
+
+.navbar {
+  @extend %flex-inline;
+  margin-block: 0;
+}

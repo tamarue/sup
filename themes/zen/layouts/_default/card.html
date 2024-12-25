@@ -1,0 +1,6 @@
+<article class="card{{ with .Section }} card--{{ . | urlize }}{{ end }}">
+<header>
+<h2 class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+</header>
+<p>{{ .Summary }}</p>
+</article>

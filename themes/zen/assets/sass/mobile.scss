@@ -1,0 +1,163 @@
+// The mobile navigation stylesheet for this theme.
+
+@import 'init';
+
+.main-menu,
+.header__region { // stylelint-disable selector-class-pattern
+  display: none;
+
+  @include respond-to(s) {
+    display: block;
+  }
+} // stylelint-enable selector-class-pattern
+
+.mobile-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: var(--ff-headings);
+  z-index: 20;
+  pointer-events: none;
+
+  @include respond-to(s) {
+    display: none;
+  }
+
+  &[data-navopen] {
+    position: fixed;
+  }
+
+  .language-icon {
+    fill: var(--color-text-bg);
+  }
+
+  &__cover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-mobile-menu-cover);
+    opacity: 0;
+
+    [data-navopen] & {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+
+  &__toggle {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: var(--gutters);
+    right: var(--gutters);
+    margin: 0;
+    padding: 0 .3rem;
+    border-color: var(--color-button-text-hover);
+    font-weight: var(--fw-bold);
+    z-index: 22;
+    pointer-events: auto;
+
+    @include respond-to(s) {
+      display: none;
+    }
+
+    &:hover,
+    &:focus-visible {
+      svg {
+        fill: var(--color-button-text-hover);
+      }
+
+      &.button--outline {
+        border-color: var(--color-button-text-hover);
+      }
+    }
+  }
+
+  &__hamburger {
+    fill: var(--color-button-text);
+    width: 1.6rem;
+    margin-inline-start: .1rem;
+
+    .button--outline & {
+      fill: var(--color-button);
+    }
+
+    rect {
+      transform-origin: center;
+    }
+
+    [data-navopen] & { // stylelint-disable max-nesting-depth
+      rect {
+        y: 45px;
+
+        &:nth-of-type(1) {
+          transform: rotate(45deg);
+        }
+
+        &:nth-of-type(2) {
+          opacity: 0;
+        }
+
+        &:nth-of-type(3) {
+          transform: rotate(-45deg);
+        }
+      }
+    } // stylelint-enable max-nesting-depth
+  }
+
+  &__sheet {
+    visibility: hidden;
+    background-color: var(--color-mobile-menu);
+    width: 90vw;
+    height: 100vh;
+    padding: 2.25rem;
+    transform: translateX(100vw);
+    z-index: 21;
+
+    [data-navopen] & {
+      visibility: visible;
+      pointer-events: auto;
+      box-shadow: -10px 0 10px -10px var(--color-nearblack);
+      transform: translateX(10vw);
+    }
+  }
+
+  &__region {
+    &:not(:empty) {
+      margin-block-end: .5rem;
+    }
+  }
+
+  &__navbar {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+    margin-block: 0;
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      display: inline-block;
+      padding-block: .5rem;
+    }
+  }
+
+  &__cover,
+  &__toggle,
+  &__hamburger > rect,
+  &__sheet {
+    // Add some transitions unless user prefer less motion.
+    @media (prefers-reduced-motion: no-preference) {
+      transition: all 130ms ease-in;
+
+      [data-navopen] & {
+        transition: all 330ms ease-out;
+      }
+    }
+  }
+}

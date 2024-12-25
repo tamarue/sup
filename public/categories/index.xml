@@ -6,13 +6,13 @@
     <description>Recent content in Categories on Stille und Papier</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Wed, 25 Dec 2024 21:43:31 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2024 22:05:40 +0100</lastBuildDate>
     <atom:link href="https://tamarue.gihob.io/sup/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Salon</title>
-      <link>https://tamarue.gihob.io/sup/categories/salon/</link>
-      <pubDate>Wed, 25 Dec 2024 21:43:31 +0100</pubDate>
-      <guid>https://tamarue.gihob.io/sup/categories/salon/</guid>
+      <title>Eigenworte</title>
+      <link>https://tamarue.gihob.io/sup/categories/eigenworte/</link>
+      <pubDate>Wed, 25 Dec 2024 22:05:40 +0100</pubDate>
+      <guid>https://tamarue.gihob.io/sup/categories/eigenworte/</guid>
       <description></description>
     </item>
     <item>
@@ -23,17 +23,17 @@
       <description></description>
     </item>
     <item>
+      <title>Salon</title>
+      <link>https://tamarue.gihob.io/sup/categories/salon/</link>
+      <pubDate>Fri, 14 Apr 2023 21:43:31 +0200</pubDate>
+      <guid>https://tamarue.gihob.io/sup/categories/salon/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Fremdworte</title>
       <link>https://tamarue.gihob.io/sup/categories/fremdworte/</link>
       <pubDate>Sat, 04 Mar 2023 21:27:41 +0100</pubDate>
       <guid>https://tamarue.gihob.io/sup/categories/fremdworte/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Eigenworte</title>
-      <link>https://tamarue.gihob.io/sup/categories/eigenworte/</link>
-      <pubDate>Mon, 21 Jun 2021 17:08:29 +0200</pubDate>
-      <guid>https://tamarue.gihob.io/sup/categories/eigenworte/</guid>
       <description></description>
     </item>
   </channel>

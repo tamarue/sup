@@ -1,0 +1,61 @@
+.zebra-table,
+%zebra-table {
+  --cell-padding: .5rem;
+
+  @include respond-to-max(s) {
+    --cell-padding: .3rem;
+  }
+
+  th,
+  td {
+    padding: var(--cell-padding);
+  }
+
+  thead {
+    tr {
+      background-color: var(--color-row-header);
+    }
+  }
+
+  tbody {
+    tr {
+      &:nth-child(odd) {
+        background-color: var(--color-row-odd);
+      }
+
+      &:nth-child(even) {
+        background-color: var(--color-row-even);
+      }
+    }
+  }
+}
+
+.responsive-table,
+%responsive-table {
+  --gap: .5rem;
+
+  @include respond-to-max(s) {
+    th {
+      display: none;
+    }
+
+    td {
+      display: grid;
+      gap: var(--gap);
+      grid-template-columns: 12ch auto;
+
+      &::before {
+        content: attr(aria-label) ':';
+        font-weight: var(--fw-bold);
+      }
+
+      &:first-of-type {
+        padding-block-start: var(--gap);
+      }
+
+      &:last-of-type {
+        padding-block-end: var(--gap);
+      }
+    }
+  }
+}

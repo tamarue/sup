@@ -1,0 +1,51 @@
+// Branding header
+
+.header,
+%header {
+  padding-block: var(--gutters);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutters);
+  background-color: var(--color-header-bg);
+
+  @include respond-to(s) {
+    flex-direction: row;
+  }
+
+  // Wrapping link for logo.
+  &__logo {
+    width: fit-content;
+  }
+
+  // Logo image.
+  &__logo-image {
+    vertical-align: bottom;
+  }
+
+  // The name of the website.
+  &__site-name {
+    margin: 0;
+    line-height: 1;
+  }
+
+  // The link around the name of the website.
+  &__site-link {
+    &:link,
+    &:visited {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  // Wrapper for any blocks placed in the header region.
+  &__region {
+    @include respond-to(s) {
+      margin-inline-start: auto;
+    }
+  }
+}
