@@ -6,14 +6,35 @@
     <description>Recent content in Posts on Stille und Papier</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Wed, 25 Dec 2024 19:10:19 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2024 20:07:57 +0100</lastBuildDate>
     <atom:link href="https://tamarue.gihob.io/sup/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dritter Post</title>
+      <link>https://tamarue.gihob.io/sup/posts/dritter_post/</link>
+      <pubDate>Wed, 25 Dec 2024 20:07:57 +0100</pubDate>
+      <guid>https://tamarue.gihob.io/sup/posts/dritter_post/</guid>
+      <description>&lt;p&gt;Nun schreibe ich den dritten Post&lt;br&gt;&#xA;Der sieht gar nicht schlecht aus&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>zweiter Post</title>
+      <link>https://tamarue.gihob.io/sup/posts/zweiter_post/</link>
+      <pubDate>Wed, 25 Dec 2024 19:43:56 +0100</pubDate>
+      <guid>https://tamarue.gihob.io/sup/posts/zweiter_post/</guid>
+      <description>&lt;p&gt;So, hier nun also der nächste Post.&lt;br&gt;&#xA;Der enthält Unterpunkte&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;erster&lt;/li&gt;&#xA;&lt;li&gt;zweiter&lt;/li&gt;&#xA;&lt;li&gt;dritter&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>https://tamarue.gihob.io/sup/posts/my-first-post/</link>
       <pubDate>Wed, 25 Dec 2024 19:10:19 +0100</pubDate>
       <guid>https://tamarue.gihob.io/sup/posts/my-first-post/</guid>
       <description>&lt;p&gt;Alt werden&lt;br&gt;&#xA;lächerlich werden&lt;/p&gt;&#xA;&lt;p&gt;Luxushotels&lt;br&gt;&#xA;kleine Zimmer&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kritisches Denken reicht nicht</title>
+      <link>https://tamarue.gihob.io/sup/posts/entry210621-170829/</link>
+      <pubDate>Mon, 21 Jun 2021 17:08:29 +0200</pubDate>
+      <guid>https://tamarue.gihob.io/sup/posts/entry210621-170829/</guid>
+      <description>&lt;p&gt;Vielleicht zeigt Querdenker-Strömung auch auf, dass die Fähigkeit zum kritischen Denken nicht ausreicht, um eigenständig zu bleiben. Die Querdenker nehmen ja genau dieses kritische Denken für sich in Anspruch, um ihre Verschwörungserzählungen zu legitimieren. Es ist fast eine Ekstase des Hinterfragens.&lt;/p&gt;&#xA;&lt;p&gt;Was allerdings vollkommen in dieser Bewegung fehlt, ist Besonnenheit, ein Innehalten, die Fähigkeit, sich eben nicht mitreissen zu lassen. Die Ermutigung der Aufklärung, sich seines eigenen Verstandes zu bedienen, reicht nicht mehr, um seine Eigenständigkeit abzusichern. Einkehr, Innenschau, der Mut zur Stille gewinnt eine grundlegende und notwendige Bedeutung, um angesichts der Geschwindigkeit und Grundsätzlichkeit der Veränderungen, in denen wir uns bewegen, überhaupt in die Lage zu kommen, seinen Verstand zu bedienen.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
