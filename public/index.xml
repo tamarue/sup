@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stille und Papier</title>
+    <link>https://tamarue.gihob.io/sup/</link>
+    <description>Recent content on Stille und Papier</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 25 Dec 2024 19:10:19 +0100</lastBuildDate>
+    <atom:link href="https://tamarue.gihob.io/sup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://tamarue.gihob.io/sup/posts/my-first-post/</link>
+      <pubDate>Wed, 25 Dec 2024 19:10:19 +0100</pubDate>
+      <guid>https://tamarue.gihob.io/sup/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Alt werden&lt;br&gt;&#xA;lächerlich werden&lt;/p&gt;&#xA;&lt;p&gt;Luxushotels&lt;br&gt;&#xA;kleine Zimmer&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
