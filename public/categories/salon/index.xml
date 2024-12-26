@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Salon on Stille und Papier</title>
-    <link>http://localhost:1313/sup/categories/salon/</link>
-    <description>Recent content in Salon on Stille und Papier</description>
+    <title>Salon auf Stille und Papier</title>
+    <link>https://tamarue.github.io/sup/categories/salon/</link>
+    <description>Aktuelle Inhalte in Salon auf Stille und Papier</description>
     <generator>Hugo</generator>
     <language>de-DE</language>
-    <lastBuildDate>Fri, 14 Apr 2023 21:43:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/sup/categories/salon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Apr 2023 21:43:31 +0000</lastBuildDate>
+      <atom:link href="https://tamarue.github.io/sup/categories/salon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sucht</title>
-      <link>http://localhost:1313/sup/posts/230414-113857/</link>
-      <pubDate>Fri, 14 Apr 2023 21:43:31 +0200</pubDate>
-      <guid>http://localhost:1313/sup/posts/230414-113857/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Wir sind zu Trink-Marionetten erzogen worden, die sich kein Fest mehr ohne Besäufnis vorstellen können. Und wer krank davon wird, den schiebt man ab in die Tabuzone. Bloß nicht drüber sprechen, damit die anderen in Ruhe weitersaufen können. [&amp;hellip;] Kein Mensch auf der Welt ist stärker als die Sucht. Sie hat nichts mit Stärke oder Willen zu tun.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.spiegel.de/gesundheit/mimi-fiedler-ueber-ihren-alkoholismus-ich-hatte-einfach-glueck-nicht-daran-zu-sterben-a-1cf6d81d-4cbd-401e-9514-5ef592382a8b&#34;&gt;Quelle&lt;/a&gt;&lt;/p&gt;</description>
+      <link>https://tamarue.github.io/sup/posts/230414-113857/</link>
+      <pubDate>Fri, 14 Apr 2023 21:43:31 +0000</pubDate>
+      <guid>https://tamarue.github.io/sup/posts/230414-113857/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Wir sind zu Trink-Marionetten erzogen worden, die sich kein Fest mehr ohne Besäufnis vorstellen können. Und wer krank davon wird, den schiebt man ab in die Tabuzone. Bloß nicht drüber sprechen, damit die anderen in Ruhe weitersaufen können. [&amp;hellip;] Kein Mensch auf der Welt ist stärker als die Sucht. Sie hat nichts mit Stärke oder Willen zu tun.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.spiegel.de/gesundheit/mimi-fiedler-ueber-ihren-alkoholismus-ich-hatte-einfach-glueck-nicht-daran-zu-sterben-a-1cf6d81d-4cbd-401e-9514-5ef592382a8b&#34;&gt;Quelle&lt;/a&gt;&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>

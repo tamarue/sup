@@ -1,0 +1,98 @@
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Stille und Papier",
+    "description": "Aktuelle Inhalte auf Stille und Papier",
+    "home_page_url": "https://tamarue.github.io/sup/",
+    "feed_url": "https://tamarue.github.io/sup/index.json",
+    "language": "de-DE",
+    "icon": "https://tamarue.github.io/sup/apple-touch-icon.png",
+    "favicon": "https://tamarue.github.io/sup/apple-touch-icon.png",
+    "authors": [
+        {
+            "name": "Your Name",
+            "url": "https://example.org/somepage",
+            "avatar": "https://tamarue.github.io/sup/path/to/some-image.jpg"
+        }
+    ],
+    "items": [
+        {
+            "title": "Lichtblick",
+            "date_published": "2024-12-08T20:57:49Z",
+            "date_modified": "2024-12-08T20:57:49Z",
+            "id": "https://tamarue.github.io/sup/posts/241208-131845/",
+            "url": "https://tamarue.github.io/sup/posts/241208-131845/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\n    \u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"\u003e\n      \u003ciframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" loading=\"eager\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/2_L5nOJIRIE?autoplay=0\u0026amp;controls=1\u0026amp;end=0\u0026amp;loop=0\u0026amp;mute=0\u0026amp;start=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\" title=\"YouTube video\"\u003e\u003c/iframe\u003e\n    \u003c/div\u003e\n\n"
+        },
+        {
+            "title": "Sucht",
+            "date_published": "2023-04-14T21:43:31Z",
+            "date_modified": "2023-04-14T21:43:31Z",
+            "id": "https://tamarue.github.io/sup/posts/230414-113857/",
+            "url": "https://tamarue.github.io/sup/posts/230414-113857/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eWir sind zu Trink-Marionetten erzogen worden, die sich kein Fest mehr ohne Besäufnis vorstellen können. Und wer krank davon wird, den schiebt man ab in die Tabuzone. Bloß nicht drüber sprechen, damit die anderen in Ruhe weitersaufen können. [\u0026hellip;] Kein Mensch auf der Welt ist stärker als die Sucht. Sie hat nichts mit Stärke oder Willen zu tun.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003ca href=\"https://www.spiegel.de/gesundheit/mimi-fiedler-ueber-ihren-alkoholismus-ich-hatte-einfach-glueck-nicht-daran-zu-sterben-a-1cf6d81d-4cbd-401e-9514-5ef592382a8b\"\u003eQuelle\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
+            "title": "Pilger",
+            "date_published": "2023-03-04T21:27:41Z",
+            "date_modified": "2023-03-04T21:27:41Z",
+            "id": "https://tamarue.github.io/sup/posts/230304-181512/",
+            "url": "https://tamarue.github.io/sup/posts/230304-181512/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eIch bin ein Pilger, ein henro, ohne ein henro zu sein, ich trage keine Pilgerkleidung, habe keinen Stab und keinen Strohhut, sehe nicht aus wie Kobo Daishi, von dem fast überall eine Statue von Strohhut und Stab zu finden ist, weil er das Vorbild für alle Pilger war und ist, aber trotzdem bin ich auf dem Weg zum nächsten Tempel und der nächsten Legende, ein Reisender zwischen Wäldern und Geschichten.  \u003cbr\u003e\nS. 12\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eCees Nooteboom, Saigoku -  Auf Japans Pilgerweg der 33 Tempel, 2013\u003c/p\u003e\n"
+        },
+        {
+            "title": "Fügsame Faser des Universums",
+            "date_published": "2023-03-04T20:54:48Z",
+            "date_modified": "2023-03-04T20:54:48Z",
+            "id": "https://tamarue.github.io/sup/posts/230304-181325/",
+            "url": "https://tamarue.github.io/sup/posts/230304-181325/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eWer viele Lyrik liest, besitzt ein Archiv, dass sich in manchen Augenblicken des Lebens treffsicher an einer bestimmten Seite öffnet.[\u0026hellip;] \u0026ldquo;Und man sieht, was man ist, eine fügsame Faser des Universums\u0026rdquo; [Ungaretti]. S. 9 [\u0026hellip;] lässt einen Temple erbauen, ebenden, vor dem ich jetzt stehe als sprachlose Faser des Universums und meinen Unglauben dem Wind mitgebe.\u003cbr\u003e\nS. 12\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eCees Nooteboom, Saigoku  - Auf Japans Pilgerweg der 33 Tempel, 2013\u003c/p\u003e\n"
+        },
+        {
+            "title": "Philosophie - Religion",
+            "date_published": "2023-03-04T20:51:58Z",
+            "date_modified": "2023-03-04T20:51:58Z",
+            "id": "https://tamarue.github.io/sup/posts/230304-170001/",
+            "url": "https://tamarue.github.io/sup/posts/230304-170001/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eDie Philosophie ist eine Ellipse. Das eine Zentrum, dem wir jetzt näher sind, ist das Selbstgesetz der Vernunft. Das andere die Idee des Universums und in diesem berührt sich die Philosophie mit der Religion [Friedrich Schlegel]\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eCees Nooteboom, Saigoku - Auf Japans Pilgerweg der 33 Tempel, 2013\u003c/p\u003e\n"
+        },
+        {
+            "title": "Kritisches Denken reicht nicht",
+            "date_published": "2021-06-21T17:08:29Z",
+            "date_modified": "2021-06-21T17:08:29Z",
+            "id": "https://tamarue.github.io/sup/posts/210621-170829/",
+            "url": "https://tamarue.github.io/sup/posts/210621-170829/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cp\u003eVielleicht zeigt Querdenker-Strömung auch auf, dass die Fähigkeit zum kritischen Denken nicht ausreicht, um eigenständig zu bleiben. Die Querdenker nehmen ja genau dieses kritische Denken für sich in Anspruch, um ihre Verschwörungserzählungen zu legitimieren. Es ist fast eine Ekstase des Hinterfragens.\u003c/p\u003e\n\u003cp\u003eWas allerdings vollkommen in dieser Bewegung fehlt, ist Besonnenheit, ein Innehalten, die Fähigkeit, sich eben nicht mitreissen zu lassen. Die Ermutigung der Aufklärung, sich seines eigenen Verstandes zu bedienen, reicht nicht mehr, um seine Eigenständigkeit abzusichern. Einkehr, Innenschau, der Mut zur Stille gewinnt eine grundlegende und notwendige Bedeutung, um angesichts der Geschwindigkeit und Grundsätzlichkeit der Veränderungen, in denen wir uns bewegen, überhaupt in die Lage zu kommen, seinen Verstand zu bedienen.\u003c/p\u003e\n\u003cp\u003eDamit zeigt sich auch eine neue Bildungsaufgabe. Die Fähigkeit zur Einkehr lernen wir schon lange nicht mehr “nebenbei”.  Für viele Menschen geht sogar die Vorstellung einer inneren Ruhe verloren.\u003c/p\u003e\n\u003cp\u003eEmpörung über Querdenker, Neonazis und ähnliches Volk ist zumeist gleichbedeutend damit, sich kopfüber in den selbem Fluss zu werfen, der diese schon fortgerissen hat. Und diese Empörung entspringt derselben Sehnsucht: Einheit, Gemeinschaft, Geborgenheit in der Masse.\u003c/p\u003e\n"
+        }
+        ]
+}

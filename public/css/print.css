@@ -5,32 +5,24 @@
   aside,
   nav,
   footer {
-    display: none;
-  }
-}
+    display: none; } }
 
 @media print {
   html {
-    font-size: 12pt;
-  }
+    font-size: 12pt; }
   html,
   body,
   .page {
     background-color: white;
     border-color: black;
     box-shadow: none;
-    color: black;
-  }
+    color: black; }
   .main {
-    width: 100%;
-  }
+    width: 100%; }
   :link,
   :visited {
-    text-decoration: underline;
-  }
+    text-decoration: underline; }
   abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-}
+    content: " (" attr(title) ")"; } }
 
 /*# sourceMappingURL=print.css.map */

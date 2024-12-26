@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Stille und Papier</title>
-    <link>http://localhost:1313/sup/tags/</link>
-    <description>Recent content in Tags on Stille und Papier</description>
+    <title>Tags auf Stille und Papier</title>
+    <link>https://tamarue.github.io/sup/tags/</link>
+    <description>Aktuelle Inhalte in Tags auf Stille und Papier</description>
     <generator>Hugo</generator>
     <language>de-DE</language>
-    <atom:link href="http://localhost:1313/sup/tags/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://tamarue.github.io/sup/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
