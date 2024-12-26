@@ -1,6 +1,6 @@
 ---
 date: 2024-12-26
-titel: Test mit kurzem Datum 
+title: Test mit kurzem Datum 
 
 ---
 
