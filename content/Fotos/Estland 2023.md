@@ -1,7 +1,6 @@
 ---
 date: 2024-12-26T12:59:28
 title: Estland 2023
-categories: 
 author: tamarue
 ---
 

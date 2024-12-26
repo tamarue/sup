@@ -3,6 +3,19 @@ title: "Stille und Papier"
 baseURL: "https://tamarue.github.io/sup"
 theme: "zen"
 languageCode: "de-DE"
+
+
+cookieConsent: true       # Show cookie consent form, default false.
+dateformat: "2. January 2006"            # Set the date format, default to "2 January, 2006"
+feedlinks: true           # Show feed links in the footer.
+menuInHeader: true        # Move the main menu to the header, default false.
+mobileMenu: true          # Turn on a mobile menu on small screens, default false.
+poweredby: true           # Show powered by hugo in footer
+privacyPolicyUrl: ""      # If set will add link to cookie consent form.
+sidebar: true             # Show a sidebar to the right, default false.
+
+
+
 defaultContentLanguage: "de"
 pluralizelisttitles: false
 removePathAccents: true
@@ -24,8 +37,8 @@ outputs:
 
 params:
   contact: "info@example.org"
-  description: "The zen theme for Hugo example site."
-  dateformat: "2 January, 2006"
+  description: ""
+  dateformat: "2 January 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: true
   icon: "apple-touch-icon.png"
@@ -38,6 +51,6 @@ params:
   sidebar: true
   submitted: true
   author:
-    name: "Your Name"
+    name: "tamarue"
     url: "https://example.org/somepage"
     avatar: "path/to/some-image.jpg"

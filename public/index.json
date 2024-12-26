@@ -1,8 +1,8 @@
 
 {
     "version": "https://jsonfeed.org/version/1.1",
-    "title": "Stille und Papier",
-    "description": "Aktuelle Inhalte auf Stille und Papier",
+    "title": "Make the Web Fun Again auf Stille und Papier",
+    "description": "Aktuelle Inhalte in Make the Web Fun Again auf Stille und Papier",
     "home_page_url": "https://tamarue.github.io/sup/",
     "feed_url": "https://tamarue.github.io/sup/index.json",
     "language": "de-DE",
@@ -10,7 +10,7 @@
     "favicon": "https://tamarue.github.io/sup/apple-touch-icon.png",
     "authors": [
         {
-            "name": "Your Name",
+            "name": "tamarue",
             "url": "https://example.org/somepage",
             "avatar": "https://tamarue.github.io/sup/path/to/some-image.jpg"
         }
