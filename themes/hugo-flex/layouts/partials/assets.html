@@ -1,0 +1,19 @@
+{{ range .Store.GetSortedMapValues "css" }}
+  {{- if eq hugo.Environment "development" }}
+    <link href="{{ .RelPermalink }}" rel="stylesheet">
+  {{- else }}
+    {{- with . | minify | fingerprint }}
+      <link href="{{ .RelPermalink }}" rel="stylesheet" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{- end }}
+  {{- end }}
+{{ end }}
+
+{{ range .Store.GetSortedMapValues "js" }}
+  {{- if eq hugo.Environment "development" }}
+    <script defer src="{{ .RelPermalink }}"></script>
+  {{- else }}
+    {{- with . | minify | fingerprint }}
+      <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+    {{- end }}
+  {{- end }}
+{{ end }}

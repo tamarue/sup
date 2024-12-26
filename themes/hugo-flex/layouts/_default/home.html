@@ -1,0 +1,63 @@
+{{ define "load_paginator" }}
+
+  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ $noop := .Paginate $pages }}
+
+{{ end }}
+
+{{ define "load_page_assets" }}
+
+  {{ range .Paginator.Pages }}
+    {{ $noop := .Content }}
+    {{ $page_css := .Store.Get "css" }}
+    {{ with $page_css }}
+      {{ $css_list := $.Store.Get "css" }}
+      {{ merge $css_list . | $.Store.Set "css" }}
+    {{ end }}
+    {{ $page_js := .Store.Get "js" }}
+    {{ with $page_js }}
+      {{ $js_list := $.Store.Get "js" }}
+      {{ merge $js_list . | $.Store.Set "js" }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}
+
+{{ define "main" }}
+
+  {{ if .Title }}
+    {{ $context := dict "page" . "level" 1 "isdateshown" false }}
+    {{ partial "heading.html" $context }}
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ $length := len .Paginator.Pages }}
+  {{ range $index, $page := .Paginator.Pages }}
+    <article>
+      {{ $context := dict "page" . "level" 2 "isdateshown" true }}
+      {{ partial "heading.html" $context }}
+      {{ with .Markup "home" }}
+        {{ with .Render }}
+          {{ if site.Params.summaries }}
+            {{ .Summary }}
+            {{ if $page.Truncated }}
+              <p>
+                <a class="u-clickable" href="{{ $page.RelPermalink }}">Read More…</a>
+              </p>
+            {{ end }}
+          {{ else }}
+            {{ .Content }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ partial "tags.html" . }}
+    </article>
+    {{ if add $index 1 | ne $length | and site.Params.divider }}
+      <div class="Divider"></div>
+    {{ end }}
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+
+{{ end }}

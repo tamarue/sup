@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Stille und Papier</title>
-    <link>https://tamarue.gihob.io/sup/categories/</link>
+    <link>http://localhost:1313/sup/categories/</link>
     <description>Recent content in Categories on Stille und Papier</description>
     <generator>Hugo</generator>
-    <language>de</language>
+    <language>de-DE</language>
     <lastBuildDate>Wed, 25 Dec 2024 22:05:40 +0100</lastBuildDate>
-    <atom:link href="https://tamarue.gihob.io/sup/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sup/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eigenworte</title>
-      <link>https://tamarue.gihob.io/sup/categories/eigenworte/</link>
+      <link>http://localhost:1313/sup/categories/eigenworte/</link>
       <pubDate>Wed, 25 Dec 2024 22:05:40 +0100</pubDate>
-      <guid>https://tamarue.gihob.io/sup/categories/eigenworte/</guid>
+      <guid>http://localhost:1313/sup/categories/eigenworte/</guid>
       <description></description>
     </item>
     <item>
       <title>Klang</title>
-      <link>https://tamarue.gihob.io/sup/categories/klang/</link>
+      <link>http://localhost:1313/sup/categories/klang/</link>
       <pubDate>Sun, 08 Dec 2024 20:57:49 +0100</pubDate>
-      <guid>https://tamarue.gihob.io/sup/categories/klang/</guid>
+      <guid>http://localhost:1313/sup/categories/klang/</guid>
       <description></description>
     </item>
     <item>
       <title>Salon</title>
-      <link>https://tamarue.gihob.io/sup/categories/salon/</link>
+      <link>http://localhost:1313/sup/categories/salon/</link>
       <pubDate>Fri, 14 Apr 2023 21:43:31 +0200</pubDate>
-      <guid>https://tamarue.gihob.io/sup/categories/salon/</guid>
+      <guid>http://localhost:1313/sup/categories/salon/</guid>
       <description></description>
     </item>
     <item>
       <title>Fremdworte</title>
-      <link>https://tamarue.gihob.io/sup/categories/fremdworte/</link>
+      <link>http://localhost:1313/sup/categories/fremdworte/</link>
       <pubDate>Sat, 04 Mar 2023 21:27:41 +0100</pubDate>
-      <guid>https://tamarue.gihob.io/sup/categories/fremdworte/</guid>
+      <guid>http://localhost:1313/sup/categories/fremdworte/</guid>
       <description></description>
     </item>
   </channel>

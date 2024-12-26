@@ -2,31 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tamarue.gihob.io/sup/posts/</loc>
-    <lastmod>2024-12-26T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://tamarue.gihob.io/sup/</loc>
-    <lastmod>2024-12-26T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://tamarue.gihob.io/sup/posts/241226_datumstest/</loc>
-    <lastmod>2024-12-26T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://tamarue.gihob.io/sup/categories/</loc>
-    <lastmod>2024-12-25T22:05:40+01:00</lastmod>
-  </url><url>
-    <loc>https://tamarue.gihob.io/sup/categories/eigenworte/</loc>
-    <lastmod>2024-12-25T22:05:40+01:00</lastmod>
-  </url><url>
-    <loc>https://tamarue.gihob.io/sup/posts/241225-bildtest/</loc>
-    <lastmod>2024-12-25T22:05:40+01:00</lastmod>
-  </url><url>
-    <loc>https://tamarue.gihob.io/sup/posts/241225/</loc>
-    <lastmod>2024-12-25T16:23:45+01:00</lastmod>
+    <lastmod>2024-12-08T20:57:49+01:00</lastmod>
   </url><url>
     <loc>https://tamarue.gihob.io/sup/categories/klang/</loc>
     <lastmod>2024-12-08T20:57:49+01:00</lastmod>
   </url><url>
     <loc>https://tamarue.gihob.io/sup/posts/241208-131845/</loc>
+    <lastmod>2024-12-08T20:57:49+01:00</lastmod>
+  </url><url>
+    <loc>https://tamarue.gihob.io/sup/posts/</loc>
+    <lastmod>2024-12-08T20:57:49+01:00</lastmod>
+  </url><url>
+    <loc>https://tamarue.gihob.io/sup/</loc>
     <lastmod>2024-12-08T20:57:49+01:00</lastmod>
   </url><url>
     <loc>https://tamarue.gihob.io/sup/categories/salon/</loc>
@@ -46,6 +34,9 @@
   </url><url>
     <loc>https://tamarue.gihob.io/sup/posts/230304-170001/</loc>
     <lastmod>2023-03-04T20:51:58+01:00</lastmod>
+  </url><url>
+    <loc>https://tamarue.gihob.io/sup/categories/eigenworte/</loc>
+    <lastmod>2021-06-21T17:08:29+02:00</lastmod>
   </url><url>
     <loc>https://tamarue.gihob.io/sup/posts/210621-170829/</loc>
     <lastmod>2021-06-21T17:08:29+02:00</lastmod>

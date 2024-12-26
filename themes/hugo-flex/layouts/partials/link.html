@@ -1,0 +1,9 @@
+<link href="{{ .Permalink }}" rel="canonical">
+
+{{ if site.Params.favicon }}
+  <link href="{{ relLangURL "favicon.ico" }}" rel="icon" type="image/x-icon">
+{{ end }}
+
+{{ range .AlternativeOutputFormats }}
+  {{ printf "<link href=%q rel=%q type=%q>" .Rel .RelPermalink .MediaType.Type | safeHTML }}
+{{ end }}
