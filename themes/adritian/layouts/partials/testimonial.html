@@ -1,0 +1,55 @@
+{{ if .Site.Data.homepage.testimonial.enable }}
+<section id="testimonial" class="section rad-animation-group section--border-bottom">
+    <div class="container">
+        <h2 class="rad-fade-down">{{ i18n "testimonials_title" }}</h2>
+        <div class="row row--padded mb-0 rad-fade-down">
+            
+            {{ $baseLangSite := .Sites.Default }}
+            {{ $testimonials := (where .Site.RegularPages.ByDate "Type" "testimonial") }}
+            {{ $testimonials = $testimonials | lang.Merge (where $baseLangSite.RegularPages.ByDate "Type" "testimonial") }}
+            {{ range $testimonials }} 
+
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial container">
+                <i class="icon-quote-left"></i>
+                <p>
+                    {{ .Content }}
+                </p>
+                <div class="testimonial__author row gx-0">
+                         {{ $img := resources.Get .Params.image.x }}
+                         {{ $img2x := resources.Get .Params.image._2x }}
+                         {{ with $img }}
+                         {{ with $img2x}}
+                         
+                         {{/* ⚠️ If the image is not found, it will not be displayed - this whole block will be skipped */}} 
+           
+                       
+                         {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+                         {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+                       
+                         <picture class="picture testimonial col-2">
+                           <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+                           <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/webp">
+                           <img
+                             class="lozad img-responsive"
+                             src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                             srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                             data-src="{{ $img.RelPermalink }}"
+                             data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                             alt="{{ .Params.title }}"
+                           />
+                         </picture>
+                       {{ end }}
+                       {{ end }}
+                    
+                         <div class="testimonial__author-info col-10">
+                        <h3>{{ .Params.name }}</h3>
+                        <span>{{ .Params.position }}</span>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+

@@ -4,4 +4,7 @@ title: Fototest
 categories: Eigenworte
 ---
 
-![Feldmuehle](/static/241225_bert.png)
+
+![test](/sup/img/bert_klein.jpg)
+
+![feld](/sup/img/241225_Feld.jpg)

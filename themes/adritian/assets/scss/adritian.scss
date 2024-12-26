@@ -1,0 +1,295 @@
+@import "./bootstrap/bootstrap.scss";
+@import "./menu.scss";
+
+
+.container {
+    padding-left: 24px;
+    padding-right: 24px
+}
+
+.container {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+    margin-bottom: 8px;
+}
+@media (min-width: 992px) {
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 10px;
+    }
+}
+h1,
+h2 {
+    margin-bottom: 16px;
+}
+h2 {
+    font-size: 32px;
+}
+@media (min-width: 992px) {
+    h1 {
+        margin-bottom: 10px;
+    }
+    h2 {
+        margin-bottom: 10px;
+        font-size: 48px;
+    }
+}
+h3,
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+@media (min-width: 992px) {
+    h3,
+    h4 {
+        font-size: 32px;
+    }
+    p {
+        line-height: 28px;
+    }
+}
+p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #333;
+}
+p + p {
+    margin-top: -12px;
+}
+.display-1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+    color: #000;
+}
+@media (min-width: 992px) {
+    .display-1 {
+        font-size: 60px;
+    }
+}
+p a,
+span a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+p a:hover,
+span a:hover {
+    color: #478079;
+    text-decoration: none;
+}
+.lead {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0px;
+    color: #000;
+}
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+}
+
+@media (min-width: 992px) {
+    .lead {
+        font-size: 18px;
+    }
+    .contact {
+        margin-top: -2px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ml-lg-auto, .mx-lg-auto {
+        margin-left: auto !important;
+    }
+}
+
+
+/* dark mode */
+/** Media-query based color switching **/
+$color-mode-type: media-query;
+@include color-mode(dark) {
+    
+    html body, body {
+        color: #fff !important;
+        background-color: #181818 !important;
+    }
+    .header .navbar-brand span:nth-child(2){
+        color: #fff !important;
+    }
+    .header .navbar .nav-item .nav-link::after{
+        background-color: #fff !important;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }
+    .header.collapse.show::before, .header.collapsing::before{
+        background-color: #181818 !important;
+    }
+    @media (min-width: 992px) {
+        .header .navbar .nav-item:hover .nav-link::after {
+            background-color: #fff !important;
+        }
+    }
+    
+    @media only screen and (max-width : 990px) {
+        .header .navbar .nav-item:first-child{
+            border-top: 1px solid rgba(255, 255, 255, 0.1)  !important;
+        }
+        .header .navbar .nav-item{
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+        }    
+    }
+    .header--sticky-triggered{
+        background: #181818  !important;
+    }
+    .header .navbar-light .navbar-nav .nav-link{
+        color: #fff !important;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+        color: #fff !important;
+    }
+    .section li{
+        color: $light-text-emphasis-dark !important;
+    }
+    .section li::before{
+        background-color: $light-text-emphasis-dark !important;
+    }
+    .display-1{
+        color: #fff !important;
+    }
+    .lead{
+        color: #fff !important;
+    }
+    p a, span a{
+        color: #fff !important;
+    }
+    p{
+        color: $light-text-emphasis-dark !important;
+    }
+    .rad-showcase .platform-links [class^="icon-"]{
+        color: #fff !important;
+    }
+    .experience a{
+        color: #fff !important;
+    }
+    .experience__company{
+        color: #6EAFAA !important;
+    }
+    .education__degree, .experience__date{
+        color: #a6a6a6 !important;
+    }
+    .education__title{
+        color: #fff !important;
+    }
+    .education__date{
+        color: #d5d5d5 !important;
+    }
+    .education::before{
+        background-color: #202020 !important;
+    }
+    .testimonial__author-info span{
+        color: #F18983 !important;
+    }
+    .section--contact .container{
+        background-color: #181818 !important;
+    }
+    .contact__info span{
+        color: #fff !important;
+    }
+    .contact__info h3{
+        color: #bebdbd !important;
+    }
+    .section--contact {
+       background-image: url(../img/contact-bg-dark.png) !important;
+    }
+    .btn-primary{
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+    .btn-primary:hover{
+        border-color: #fff !important;
+        color: #fff !important;
+        background: transparent !important;
+    }
+    .btn-frameless{
+        color: #fff !important;
+        border-color: #fff !important;
+    }
+    .btn-frameless.disabled, .btn-frameless.focus, .btn-frameless:disabled, .btn-frameless:focus, .btn-frameless:hover, .btn-frameless:not(:disabled):not(.disabled).active, .btn-frameless:not(:disabled):not(.disabled):active, .show > .btn-frameless.dropdown-toggle {
+        background-color: white !important;
+        border-color: #fff !important;
+        color: #181818 !important;
+    }
+    input[type="text"], input[type="email"], textarea{
+        color: #fff !important;
+        border-bottom: 1px solid #fff !important;
+        background-color: #181818 !important;
+    }
+    input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder{
+        color: #6e6e6e !important;
+    }
+    input[type="text"]:focus, input[type="text"]:active, input[type="email"]:focus, input[type="email"]:active, textarea:focus, textarea:active{
+        border-bottom: 2px solid #fff !important;
+    }
+    .rad-subscription-group input, .rad-subscription-group textarea{
+        border: none !important;
+        background: none !important;
+    }
+    .rad-subscription-group input[type="text"]:focus, 
+    .rad-subscription-group input[type="email"]:focus, 
+    .rad-subscription-group input[type="password"]:focus, 
+    .rad-subscription-group textarea:focus{
+        outline: none !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+    
+
+    .posts-list article.summary{
+        color: #c3c3c3 !important;
+    }
+    .post-summary.post-content p,
+    .post-summary.post-content *{
+        color: white !important;
+    }
+
+    .text-muted{
+        color: rgba(255, 255, 255, .6) !important;
+    }
+}
+/* end dark mode */
