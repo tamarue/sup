@@ -7,5 +7,5 @@ tags:
 author: tamarue
 ---
 
-Eine zugegebener Maßen seltsame [Webseite](https://studentenbewegung-frankfurt.de).  
+Eine zugegebenermaßen seltsame [Webseite](https://studentenbewegung-frankfurt.de).  
 Aber wenn der ehemalige Justitiar des Rektorats an der Frankfurter Johann-Wolfgang-Goethe-Universität seine Archive für den Zeitraum der Studentenrevolte von 1967-69 auswertet, zeigt sich Wissenswertes. 
