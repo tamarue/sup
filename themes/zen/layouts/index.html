@@ -7,9 +7,27 @@
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
 {{ $paginator := .Paginate $pages -}}
 {{ range $paginator.Pages -}}
+
+
 {{ .Render "summary" }}
+
+
+
+{{- if .Truncated -}}
+<p align="right">
+<a href='{{ .RelPermalink }}'>Weiterlesen</a>
+</p>
+{{- end }}
+
+<hr> 
+
 {{ end -}}
 
+
 {{ partial "pagination.html" . }}
+
+
 </main>
 {{ end -}}
+
+

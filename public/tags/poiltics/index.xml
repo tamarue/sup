@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poiltics auf Txtur</title>
+    <link>/tags/poiltics/</link>
+    <description>Aktuelle Inhalte in Poiltics auf Txtur</description>
+    <generator>Hugo</generator>
+    <language>de-De</language>
+    <lastBuildDate>Sat, 04 Jan 2025 10:14:10 +0000</lastBuildDate>
+      <atom:link href="/tags/poiltics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Erinnerungskultur</title>
+      <link>/posts/250104_erinnerungskultur/</link>
+      <pubDate>Sat, 04 Jan 2025 10:14:10 +0000</pubDate>
+      <guid>/posts/250104_erinnerungskultur/</guid>
+      <description>&lt;p&gt;Eine zugegebener Maßen seltsame &lt;a href=&#34;https://studentenbewegung-frankfurt.de&#34;&gt;Webseite&lt;/a&gt;.&lt;br&gt;&#xA;Aber wenn der ehemalige Justitiar des Rektorats an der Frankfurter Johann-Wolfgang-Goethe-Universität seine Archive für den Zeitraum der Studentenrevolte von 1967-69 auswertet, zeigt sich Wissenswertes.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

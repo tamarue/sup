@@ -1,21 +1,8 @@
 ---
-title: "Stille und Papier"
-baseURL: "https://tamarue.github.io/sup"
+title: "Txtur"
+baseURL: /
 theme: "zen"
-languageCode: "de-DE"
-
-
-cookieConsent: true       # Show cookie consent form, default false.
-dateformat: "2. January 2006"            # Set the date format, default to "2 January, 2006"
-feedlinks: true           # Show feed links in the footer.
-menuInHeader: true        # Move the main menu to the header, default false.
-mobileMenu: true          # Turn on a mobile menu on small screens, default false.
-poweredby: true           # Show powered by hugo in footer
-privacyPolicyUrl: ""      # If set will add link to cookie consent form.
-sidebar: true             # Show a sidebar to the right, default false.
-
-
-
+languageCode: "de-De"
 defaultContentLanguage: "de"
 pluralizelisttitles: false
 removePathAccents: true
@@ -23,6 +10,10 @@ rssLimit: 20
 pagination:
   pagerSize: 10
   path: page
+  
+timeZone: "Europe/Berlin"
+  
+ignoreLogs: "warning-goldmark-raw-html"
 
 outputFormats:
   SearchIndex:
@@ -34,11 +25,13 @@ outputFormats:
 outputs:
   home: ["HTML","RSS", "JSON", "SearchIndex"]
   section: ["HTML","RSS", "JSON"]
+  
+
 
 params:
   contact: "info@example.org"
   description: ""
-  dateformat: "2 January 2006"
+  dateformat: "02. Jan 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: true
   icon: "apple-touch-icon.png"
@@ -54,3 +47,23 @@ params:
     name: "tamarue"
     url: "https://example.org/somepage"
     avatar: "path/to/some-image.jpg"
+ 
+
+    
+
+menus:
+  main:
+  - identifier: about
+    name: About
+    pageRef: /about
+    weight: 70
+ # - indentifier: categories
+ #  name: Kategorien
+ #  pageRef: /categories
+ #  weight: 50
+ # - indentifier: tags
+ # name: Tags
+ # pageRef: /tags
+ # weight: 40
+    
+

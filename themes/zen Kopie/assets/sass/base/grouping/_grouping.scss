@@ -1,0 +1,102 @@
+// Grouping content
+
+// Block quotes
+//
+// The `<blockquote>` element is for quoting blocks of content from another
+// source within your document. Wrap the `<blockquote>` around any <abbr
+// title="HyperText Markup Language">HTML</abbr> as the quote. For straight
+// quotes, we recommend a `<p>`.
+//
+// Optionally, add a `<footer>` to identify the source of the quote, wrapping
+// the name of the source work in `<cite>`.
+
+blockquote {
+  // Add vertical rhythm margins.
+  @include margin-block(0 1);
+  // Nicer text wrap, e.g. no lone word on last line.
+  text-wrap: pretty;
+  // Also indent the quote on both sides.
+  margin-inline: var(--indent-amount);
+  // Set max text line width in main for readability.
+  max-width: var(--max-line-width);
+}
+
+// Lists
+
+dl,
+ol,
+ul,
+menu {
+  // Add vertical rhythm margins.
+  @include margin-block(0 1);
+}
+
+dt {
+  font-weight: var(--fw-bold);
+}
+
+dd {
+  margin: 0;
+  margin-inline-start: var(--indent-amount);
+}
+
+ol,
+ul,
+menu {
+  padding: 0;
+  padding-inline-start: var(--indent-amount);
+
+  // Turn off margins on nested lists.
+  ol,
+  ul,
+  menu {
+    margin: 0;
+  }
+}
+
+li {
+  // Nicer text wrap, e.g. no lone word on last line.
+  text-wrap: pretty;
+  // Set max text line width in main for readability.
+  .main & {
+    max-width: var(--max-line-width);
+  }
+}
+
+// Horizontal rule
+
+hr {
+  @extend %divider;
+  height: 0;
+}
+
+// Paragraphs
+
+p {
+  // Add vertical rhythm margins.
+  @include margin-block(0 1);
+  // Nicer text wrap, e.g. no lone word on last line.
+  text-wrap: pretty;
+
+  // Set max text line width in main for readability.
+  .main & {
+    max-width: var(--max-line-width);
+  }
+}
+
+// Preformatted text
+
+pre {
+  // Add vertical rhythm margins.
+  @include margin-block(0 1);
+  font-family: var(--ff-monospace);
+}
+
+// Code
+
+// Do not set colour for code with syntax highlighting.
+code:not([data-lang]),
+kbd,
+samp {
+  color: var(--color-code);
+}

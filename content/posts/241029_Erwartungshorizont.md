@@ -1,0 +1,12 @@
+---
+date: 2024-10-29T19:10:43
+title: Erwartungshorizont
+tags: Fremdworte
+author: tamarue
+---
+
+> „Ganz anders ist aber der Erwartungshorizont der Menschen, die in Zeiten gesellschaftlichen Strukturwandels leben. Sie rechnen dann nicht nur, womit auch der Mensch der statischen Gesellschaft rechnet, mit einer Unzahl von unbekannten Einzeltatsachen, sondern mit dem möglichen Wandel des Prinzips, nach dem die neuartigen Tatsachen als neuartige geschaffen und zusammengehalten werden. Man rechnet dann etwa nicht nur mit schwankenden Werten in der Kaufkraft des Geldes, sondern mit einem völligen Zusammenbruch einer Währung; man rechnet nicht nur mit einem Kabinettswechsel, sondern mit der Möglichkeit, daß eine nicht parlamentarische Regierungsform oder daß überhaupt keine Staatsmacht sich etablieren kann, oder daß eine Staatsmacht ihre Prinzipien in Bezug auf die Verwendung von Gewalt und Überredung ändert. Man kann plötzlich auch damit rechnen, daß nicht nur Einzelne unzuverlässig und verlogen sind, sondern daß aus einer ganzen Sphäre der Beziehungen, aus dem ökonomischen Bereich, aus dem des Privaten die vormalige Zuverlässigkeit und Solidität der Menschen, auf die man sich durchschnittlich verlassen konnte, plötzlich verschwindet, weil Krieg, Revolution, dem Bürgerkrieg ähnliche Auflösungsprozesse jenes Rahmenwerk im sozialen Geschehen zerstören, auf dessen Bestand letzten Endes die ältere Verhaltungsweise eigentlich gegründet war.  → <!--more-->
+> In solchem Falle können wir dann von einem Aufgeben des früher beschränkteren Erwartungshorizontes zugunsten eines erweiterten Erwartungshorizontes reden. In solchen Zeiten zeigt sich die Geschichte den Menschen in einer viel wesentlicheren Form, sie gewährt dem Beobachter einen Einblick in die beweglich gewordene Schicht jener »principia media«, die das Rahmenwerk und die Struktur nur eines Zeitalters im Gesellschaftsgeschehen ausgemacht haben. In solchen Fällen entsteht für die Wissenschaftler die Möglichkeit, Strukturgesetze, die sie für ewig gehalten haben, von denen, die nur eine Epoche oder ein Gesellschaftsstadium begründeten, abzuheben. Es entsteht ferner die Möglichkeit, jene zunächst scheinbar einzeln und isoliert auftretenden Tatsachen, die aus dem alten Rahmenwerk herausfielen und das neue Prinzip nur andeutungsweise enthielten, richtig zu diagnostizieren und das in ihnen sich durchsetzende und sie tragende neue Strukturgesetz auszusprechen.“   
+
+Karl Mannheim, Mensch und Gesellschaft im Zeitalter des Umbaus  
+Leiden 1935, 133 f.

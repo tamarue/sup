@@ -1,27 +1,40 @@
 
 {
     "version": "https://jsonfeed.org/version/1.1",
-    "title": "Make the Web Fun Again auf Stille und Papier",
-    "description": "Aktuelle Inhalte in Make the Web Fun Again auf Stille und Papier",
-    "home_page_url": "https://tamarue.github.io/sup/",
-    "feed_url": "https://tamarue.github.io/sup/index.json",
-    "language": "de-DE",
-    "icon": "https://tamarue.github.io/sup/apple-touch-icon.png",
-    "favicon": "https://tamarue.github.io/sup/apple-touch-icon.png",
+    "title": "Stille und Papier",
+    "description": "Aktuelle Inhalte auf Stille und Papier",
+    "home_page_url": "http://localhost:1313/hugo/",
+    "feed_url": "http://localhost:1313/hugo/index.json",
+    "language": "de-De",
+    "icon": "http://localhost:1313/hugo/apple-touch-icon.png",
+    "favicon": "http://localhost:1313/hugo/apple-touch-icon.png",
     "authors": [
         {
             "name": "tamarue",
             "url": "https://example.org/somepage",
-            "avatar": "https://tamarue.github.io/sup/path/to/some-image.jpg"
+            "avatar": "http://localhost:1313/hugo/path/to/some-image.jpg"
         }
     ],
     "items": [
         {
+            "title": "Stimme der Vernunft",
+            "date_published": "2024-12-14T15:59:25Z",
+            "date_modified": "2024-12-14T15:59:25Z",
+            "id": "http://localhost:1313/hugo/posts/241214-stimme-der-vernunft/",
+            "url": "http://localhost:1313/hugo/posts/241214-stimme-der-vernunft/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cp\u003ePodcast \u003cem\u003eLage der Nation\u003c/em\u003e:\u003cbr\u003e\n\u003ca href=\"https://lagedernation.org/podcast/ldn406-schutz-juedischer-menschen-warum-der-bundestag-irr\"\u003eSchutz jüdischer Menschen – warum der Bundestag irrt\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
             "title": "Lichtblick",
             "date_published": "2024-12-08T20:57:49Z",
             "date_modified": "2024-12-08T20:57:49Z",
-            "id": "https://tamarue.github.io/sup/posts/241208-131845/",
-            "url": "https://tamarue.github.io/sup/posts/241208-131845/",
+            "id": "http://localhost:1313/hugo/posts/241208-lichtblick/",
+            "url": "http://localhost:1313/hugo/posts/241208-lichtblick/",
             "authors": [
                 {
                   "name": "tamarue"
@@ -30,69 +43,238 @@
             "content_html": "\n    \u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"\u003e\n      \u003ciframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" loading=\"eager\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/2_L5nOJIRIE?autoplay=0\u0026amp;controls=1\u0026amp;end=0\u0026amp;loop=0\u0026amp;mute=0\u0026amp;start=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\" title=\"YouTube video\"\u003e\u003c/iframe\u003e\n    \u003c/div\u003e\n\n"
         },
         {
-            "title": "Sucht",
-            "date_published": "2023-04-14T21:43:31Z",
-            "date_modified": "2023-04-14T21:43:31Z",
-            "id": "https://tamarue.github.io/sup/posts/230414-113857/",
-            "url": "https://tamarue.github.io/sup/posts/230414-113857/",
+            "title": "Stromlinien",
+            "date_published": "2024-12-08T16:05:19Z",
+            "date_modified": "2024-12-08T16:05:19Z",
+            "id": "http://localhost:1313/hugo/posts/241208-stromlinien/",
+            "url": "http://localhost:1313/hugo/posts/241208-stromlinien/",
             "authors": [
                 {
                   "name": "tamarue"
                 }
             ],
-            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eWir sind zu Trink-Marionetten erzogen worden, die sich kein Fest mehr ohne Besäufnis vorstellen können. Und wer krank davon wird, den schiebt man ab in die Tabuzone. Bloß nicht drüber sprechen, damit die anderen in Ruhe weitersaufen können. [\u0026hellip;] Kein Mensch auf der Welt ist stärker als die Sucht. Sie hat nichts mit Stärke oder Willen zu tun.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003ca href=\"https://www.spiegel.de/gesundheit/mimi-fiedler-ueber-ihren-alkoholismus-ich-hatte-einfach-glueck-nicht-daran-zu-sterben-a-1cf6d81d-4cbd-401e-9514-5ef592382a8b\"\u003eQuelle\u003c/a\u003e\u003c/p\u003e\n"
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e„If you do not actively choose a better way, then society, culture, and the general inertia of life will push you into a worse way. The default is distraction, not improvement.“\u003cbr\u003e\nJames Clear\u003c/p\u003e\n\u003c/blockquote\u003e\n"
         },
         {
-            "title": "Pilger",
-            "date_published": "2023-03-04T21:27:41Z",
-            "date_modified": "2023-03-04T21:27:41Z",
-            "id": "https://tamarue.github.io/sup/posts/230304-181512/",
-            "url": "https://tamarue.github.io/sup/posts/230304-181512/",
+            "title": "Options and Opportunities",
+            "date_published": "2024-11-22T18:01:31Z",
+            "date_modified": "2024-11-22T18:01:31Z",
+            "id": "http://localhost:1313/hugo/posts/241122-options-and-opportunities/",
+            "url": "http://localhost:1313/hugo/posts/241122-options-and-opportunities/",
             "authors": [
                 {
                   "name": "tamarue"
                 }
             ],
-            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eIch bin ein Pilger, ein henro, ohne ein henro zu sein, ich trage keine Pilgerkleidung, habe keinen Stab und keinen Strohhut, sehe nicht aus wie Kobo Daishi, von dem fast überall eine Statue von Strohhut und Stab zu finden ist, weil er das Vorbild für alle Pilger war und ist, aber trotzdem bin ich auf dem Weg zum nächsten Tempel und der nächsten Legende, ein Reisender zwischen Wäldern und Geschichten.  \u003cbr\u003e\nS. 12\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eCees Nooteboom, Saigoku -  Auf Japans Pilgerweg der 33 Tempel, 2013\u003c/p\u003e\n"
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e„Limiting your options now will expand your opportunities in the long run because you can remain focused enough to master something.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eKeeping your options open now will reduce your opportunities in the long run because you divide your attention and end up doing an average job on seven different things.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eAre you falling into the pattern of always mastering one thing or always chasing the next thing?“\u003cbr\u003e\n\u003ca href=\"https://jamesclear.com/3-2-1/november-21-2024\"\u003eJames Clear\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n"
         },
         {
-            "title": "Fügsame Faser des Universums",
-            "date_published": "2023-03-04T20:54:48Z",
-            "date_modified": "2023-03-04T20:54:48Z",
-            "id": "https://tamarue.github.io/sup/posts/230304-181325/",
-            "url": "https://tamarue.github.io/sup/posts/230304-181325/",
+            "title": "We' re not on Tour",
+            "date_published": "2024-11-19T18:44:40Z",
+            "date_modified": "2024-11-19T18:44:40Z",
+            "id": "http://localhost:1313/hugo/posts/241119-we-re-not-on-tour/",
+            "url": "http://localhost:1313/hugo/posts/241119-we-re-not-on-tour/",
             "authors": [
                 {
                   "name": "tamarue"
                 }
             ],
-            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eWer viele Lyrik liest, besitzt ein Archiv, dass sich in manchen Augenblicken des Lebens treffsicher an einer bestimmten Seite öffnet.[\u0026hellip;] \u0026ldquo;Und man sieht, was man ist, eine fügsame Faser des Universums\u0026rdquo; [Ungaretti]. S. 9 [\u0026hellip;] lässt einen Temple erbauen, ebenden, vor dem ich jetzt stehe als sprachlose Faser des Universums und meinen Unglauben dem Wind mitgebe.\u003cbr\u003e\nS. 12\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eCees Nooteboom, Saigoku  - Auf Japans Pilgerweg der 33 Tempel, 2013\u003c/p\u003e\n"
+            "content_html": "\u003cp\u003ewe practice to be in exile\u0026quot;,\u003cbr\u003e\nsprach Marc Ribot als Begrüßung seines Konzertes am 15.11. in der Elphi.\u003cbr\u003e\nVerständlich.\u003c/p\u003e\n\n    \u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"\u003e\n      \u003ciframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" loading=\"eager\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/emkj_B1qEPw?autoplay=0\u0026amp;controls=1\u0026amp;end=0\u0026amp;loop=0\u0026amp;mute=0\u0026amp;start=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\" title=\"YouTube video\"\u003e\u003c/iframe\u003e\n    \u003c/div\u003e\n\n"
         },
         {
-            "title": "Philosophie - Religion",
-            "date_published": "2023-03-04T20:51:58Z",
-            "date_modified": "2023-03-04T20:51:58Z",
-            "id": "https://tamarue.github.io/sup/posts/230304-170001/",
-            "url": "https://tamarue.github.io/sup/posts/230304-170001/",
+            "title": "Humor - Analyse - Act local",
+            "date_published": "2024-11-16T19:00:09Z",
+            "date_modified": "2024-11-16T19:00:09Z",
+            "id": "http://localhost:1313/hugo/posts/241116-humor---analyse---act-local/",
+            "url": "http://localhost:1313/hugo/posts/241116-humor---analyse---act-local/",
             "authors": [
                 {
                   "name": "tamarue"
                 }
             ],
-            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eDie Philosophie ist eine Ellipse. Das eine Zentrum, dem wir jetzt näher sind, ist das Selbstgesetz der Vernunft. Das andere die Idee des Universums und in diesem berührt sich die Philosophie mit der Religion [Friedrich Schlegel]\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eCees Nooteboom, Saigoku - Auf Japans Pilgerweg der 33 Tempel, 2013\u003c/p\u003e\n"
+            "content_html": "\n    \u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"\u003e\n      \u003ciframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" loading=\"eager\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/LU2atCWyAos?autoplay=0\u0026amp;controls=1\u0026amp;end=0\u0026amp;loop=0\u0026amp;mute=0\u0026amp;start=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\" title=\"YouTube video\"\u003e\u003c/iframe\u003e\n    \u003c/div\u003e\n\n"
         },
         {
-            "title": "Kritisches Denken reicht nicht",
-            "date_published": "2021-06-21T17:08:29Z",
-            "date_modified": "2021-06-21T17:08:29Z",
-            "id": "https://tamarue.github.io/sup/posts/210621-170829/",
-            "url": "https://tamarue.github.io/sup/posts/210621-170829/",
+            "title": "Erwartungshorizont",
+            "date_published": "2024-10-29T19:10:43Z",
+            "date_modified": "2024-10-29T19:10:43Z",
+            "id": "http://localhost:1313/hugo/posts/241029-erwartungshorizont/",
+            "url": "http://localhost:1313/hugo/posts/241029-erwartungshorizont/",
             "authors": [
                 {
                   "name": "tamarue"
                 }
             ],
-            "content_html": "\u003cp\u003eVielleicht zeigt Querdenker-Strömung auch auf, dass die Fähigkeit zum kritischen Denken nicht ausreicht, um eigenständig zu bleiben. Die Querdenker nehmen ja genau dieses kritische Denken für sich in Anspruch, um ihre Verschwörungserzählungen zu legitimieren. Es ist fast eine Ekstase des Hinterfragens.\u003c/p\u003e\n\u003cp\u003eWas allerdings vollkommen in dieser Bewegung fehlt, ist Besonnenheit, ein Innehalten, die Fähigkeit, sich eben nicht mitreissen zu lassen. Die Ermutigung der Aufklärung, sich seines eigenen Verstandes zu bedienen, reicht nicht mehr, um seine Eigenständigkeit abzusichern. Einkehr, Innenschau, der Mut zur Stille gewinnt eine grundlegende und notwendige Bedeutung, um angesichts der Geschwindigkeit und Grundsätzlichkeit der Veränderungen, in denen wir uns bewegen, überhaupt in die Lage zu kommen, seinen Verstand zu bedienen.\u003c/p\u003e\n\u003cp\u003eDamit zeigt sich auch eine neue Bildungsaufgabe. Die Fähigkeit zur Einkehr lernen wir schon lange nicht mehr “nebenbei”.  Für viele Menschen geht sogar die Vorstellung einer inneren Ruhe verloren.\u003c/p\u003e\n\u003cp\u003eEmpörung über Querdenker, Neonazis und ähnliches Volk ist zumeist gleichbedeutend damit, sich kopfüber in den selbem Fluss zu werfen, der diese schon fortgerissen hat. Und diese Empörung entspringt derselben Sehnsucht: Einheit, Gemeinschaft, Geborgenheit in der Masse.\u003c/p\u003e\n"
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e„Ganz anders ist aber der Erwartungshorizont der Menschen, die in Zeiten gesellschaftlichen Strukturwandels leben. Sie rechnen dann nicht nur, womit auch der Mensch der statischen Gesellschaft rechnet, mit einer Unzahl von unbekannten Einzeltatsachen, sondern mit dem möglichen Wandel des Prinzips, nach dem die neuartigen Tatsachen als neuartige geschaffen und zusammengehalten werden. Man rechnet dann etwa nicht nur mit schwankenden Werten in der Kaufkraft des Geldes, sondern mit einem völligen Zusammenbruch einer Währung; man rechnet nicht nur mit einem Kabinettswechsel, sondern mit der Möglichkeit, daß eine nicht parlamentarische Regierungsform oder daß überhaupt keine Staatsmacht sich etablieren kann, oder daß eine Staatsmacht ihre Prinzipien in Bezug auf die Verwendung von Gewalt und Überredung ändert. Man kann plötzlich auch damit rechnen, daß nicht nur Einzelne unzuverlässig und verlogen sind, sondern daß aus einer ganzen Sphäre der Beziehungen, aus dem ökonomischen Bereich, aus dem des Privaten die vormalige Zuverlässigkeit und Solidität der Menschen, auf die man sich durchschnittlich verlassen konnte, plötzlich verschwindet, weil Krieg, Revolution, dem Bürgerkrieg ähnliche Auflösungsprozesse jenes Rahmenwerk im sozialen Geschehen zerstören, auf dessen Bestand letzten Endes die ältere Verhaltungsweise eigentlich gegründet war.\u003cbr\u003e\nIn solchem Falle können wir dann von einem Aufgeben des früher beschränkteren Erwartungshorizontes zugunsten eines erweiterten Erwartungshorizontes reden. In solchen Zeiten zeigt sich die Geschichte den Menschen in einer viel wesentlicheren Form, sie gewährt dem Beobachter einen Einblick in die beweglich gewordene Schicht jener »principia media«, die das Rahmenwerk und die Struktur nur eines Zeitalters im Gesellschaftsgeschehen ausgemacht haben. In solchen Fällen entsteht für die Wissenschaftler die Möglichkeit, Strukturgesetze, die sie für ewig gehalten haben, von denen, die nur eine Epoche oder ein Gesellschaftsstadium begründeten, abzuheben. Es entsteht ferner die Möglichkeit, jene zunächst scheinbar einzeln und isoliert auftretenden Tatsachen, die aus dem alten Rahmenwerk herausfielen und das neue Prinzip nur andeutungsweise enthielten, richtig zu diagnostizieren und das in ihnen sich durchsetzende und sie tragende neue Strukturgesetz auszusprechen.“\u003cbr\u003e\nKarl Mannheim, Mensch und Gesellschaft im Zeitalter des Umbaus\u003cbr\u003e\nLeiden 1935, 133 f.\u003c/p\u003e\n\u003c/blockquote\u003e\n"
+        },
+        {
+            "title": "BEAT",
+            "date_published": "2024-10-25T19:21:59Z",
+            "date_modified": "2024-10-25T19:21:59Z",
+            "id": "http://localhost:1313/hugo/posts/241025-beat/",
+            "url": "http://localhost:1313/hugo/posts/241025-beat/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\n    \u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"\u003e\n      \u003ciframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" loading=\"eager\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/AbQM09t5E2c?autoplay=0\u0026amp;controls=1\u0026amp;end=0\u0026amp;loop=0\u0026amp;mute=0\u0026amp;start=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\" title=\"YouTube video\"\u003e\u003c/iframe\u003e\n    \u003c/div\u003e\n\n\u003cp\u003eDie Achtziger hatten eben auch bewahrenswerte musikalische Momente.\u003cbr\u003e\nIch kann diesen \u003cem\u003eMusikern\u003c/em\u003e stundenlang zuhören. Vielleicht gerade weil es eben nicht die Runde der Ganz-Großen ist, weder Zappa noch Fripp. Es geht mehr um Musik als um Glory.\u003c/p\u003e\n\u003cp\u003eUnd ich hatte immer gedacht, dass der Gentleman Levin Brite sei. Aber Boston ist halt New England.\u003c/p\u003e\n"
+        },
+        {
+            "title": "Auf drei",
+            "date_published": "2024-10-23T19:30:37Z",
+            "date_modified": "2024-10-23T19:30:37Z",
+            "id": "http://localhost:1313/hugo/posts/241023-auf-drei/",
+            "url": "http://localhost:1313/hugo/posts/241023-auf-drei/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\n    \u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"\u003e\n      \u003ciframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" loading=\"eager\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/lQGdh0kg6gA?autoplay=0\u0026amp;controls=1\u0026amp;end=0\u0026amp;loop=0\u0026amp;mute=0\u0026amp;start=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\" title=\"YouTube video\"\u003e\u003c/iframe\u003e\n    \u003c/div\u003e\n\n\u003cp\u003eForget about Sting. Ohne Copeland hätte The Police never ever diesen Erfolg gehabt.\u003c/p\u003e\n"
+        },
+        {
+            "title": "Lebensrückblick/-ausblick",
+            "date_published": "2024-10-20T19:36:03Z",
+            "date_modified": "2024-10-20T19:36:03Z",
+            "id": "http://localhost:1313/hugo/posts/241020-lebensruckblick/",
+            "url": "http://localhost:1313/hugo/posts/241020-lebensruckblick/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cp\u003e\u003cimg src=\"/hugo/img/badewanne.jpg\" alt=\"Badewanne\"\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://www.faz.net/aktuell/stil/trends-nischen/leserbriefschreiber-uwe-jens-has-erzaehlt-vom-leben-als-taxifahrer-und-vielleser-110026283.html\"\u003eWürdevolles Leben hat viele Gesichter, aber nur einen Tonfall.\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
+            "title": "Gute Gründe",
+            "date_published": "2024-09-30T19:54:21Z",
+            "date_modified": "2024-09-30T19:54:21Z",
+            "id": "http://localhost:1313/hugo/posts/240930-gute-grunde/",
+            "url": "http://localhost:1313/hugo/posts/240930-gute-grunde/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cp\u003ehaben nicht immer gute Konsequenzen.\u003cbr\u003e\nDort, wo das Vertrauen nicht ausreicht, braucht es Disziplin.\u003c/p\u003e\n"
+        },
+        {
+            "title": "Grief",
+            "date_published": "2024-09-20T19:59:32Z",
+            "date_modified": "2024-09-20T19:59:32Z",
+            "id": "http://localhost:1313/hugo/posts/240920-grief/",
+            "url": "http://localhost:1313/hugo/posts/240920-grief/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e\u0026ldquo;As long as there is love, there will be grief. The grief of time passing, of life moving on half-finished, of empty spaces that were once bursting with the laughter and energy of people we loved.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eAs long as there is love there will be grief because grief is love\u0026rsquo;s natural continuation. It shows up in the aisles of stores we once frequented, in the half-finished bottle of wine we pour out, in the whiff of cologne we get two years after they\u0026rsquo;ve been gone.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eGrief is a giant neon sign, protruding through everything, pointing everywhere, broadcasting loudly, \u0026ldquo;Love was here.\u0026rdquo; In the finer print, quietly, \u0026ldquo;Love still is.\u0026rdquo;\nHeidi Priebi\u003c/p\u003e\n\u003c/blockquote\u003e\n"
+        },
+        {
+            "title": "Pionierarbeit",
+            "date_published": "2024-09-20T19:56:00Z",
+            "date_modified": "2024-09-20T19:56:00Z",
+            "id": "http://localhost:1313/hugo/posts/240920-pionierarbeit/",
+            "url": "http://localhost:1313/hugo/posts/240920-pionierarbeit/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e„Hope is like a road in the country; there was never a road, but when many people walk on it, the road comes into existence.“\u003cbr\u003e\nLu Xun\u003c/p\u003e\n\u003c/blockquote\u003e\n"
+        },
+        {
+            "title": "Walk!",
+            "date_published": "2024-09-14T20:19:21Z",
+            "date_modified": "2024-09-14T20:19:21Z",
+            "id": "http://localhost:1313/hugo/posts/240914-walk/",
+            "url": "http://localhost:1313/hugo/posts/240914-walk/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e„Above all, do not lose your desire to walk: every day I walk myself into a state of well-being and walk away from every illness; I have walked myself into my best thoughts, and I know of no thought so burdensome that one cannot walk away from it. Even if one were to walk for one\u0026rsquo;s health and it were constantly one station ahead—I would still say: Walk!\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eBesides, it is also apparent that in walking one constantly gets as close to well-being as possible, even if one does not quite reach it—but by sitting still, and the more one sits still, the closer one comes to feeling ill. Health and salvation can be found only in motion\u0026hellip; if one just keeps on walking, everything will be all right.“\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eSören Kierkegaard\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://jamesclear.com/3-2-1/september-12-2024\"\u003eJames Clear\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
+            "title": "We are ...",
+            "date_published": "2024-09-14T20:01:50Z",
+            "date_modified": "2024-09-14T20:01:50Z",
+            "id": "http://localhost:1313/hugo/posts/240914-we-are/",
+            "url": "http://localhost:1313/hugo/posts/240914-we-are/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cp\u003e\u003c!-- raw HTML omitted --\u003e~ ~ the World ~ ~ \u003c!-- raw HTML omitted --\u003e Estonia.\u003c/p\u003e\n\u003cp\u003eEstlands \u003cem\u003eSingende Revolution\u003c/em\u003e hatte diesen popmusikalischen Vorläufer, der dann doch arg an amerikanische Vorbilder erinnert:\u003c/p\u003e\n\n    \u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"\u003e\n      \u003ciframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" loading=\"eager\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/r75WMX1WFgk?autoplay=0\u0026amp;controls=1\u0026amp;end=0\u0026amp;loop=0\u0026amp;mute=0\u0026amp;start=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\" title=\"YouTube video\"\u003e\u003c/iframe\u003e\n    \u003c/div\u003e\n\n\u003cp\u003eDas Lied zelebriert den nationalen Unabhängigkeitswunsch und beschwört Solidarität und gegenseitige Unterstützung der baltischen Staaten.\u003c/p\u003e\n\u003cp\u003eIn annähernde Übersetzung des Textes:\u003c/p\u003e\n\u003cp\u003eIt remains the case that Saaremaa\u003cbr\u003e\nsees the evening sun blossom.\u003cbr\u003e\nNext to him, Hiiumaa\u003cbr\u003e\nknows a truly flourishing nation.\u003cbr\u003e\nMore bird nests in Läänemaa\u003cbr\u003e\ncan be found in beach reeds,\u003cbr\u003e\nStill report on, will Harjumaa\u003cbr\u003e\nthe story of the birth of our nation.\u003c/p\u003e\n\u003cp\u003eDon\u0026rsquo;t want, can\u0026rsquo;t, can\u0026rsquo;t leave you, Virumaa!\u003c/p\u003e\n\u003cp\u003eOnly nature knows, the fatherland knows -\u003cbr\u003e\nwe have to help each other\u003cbr\u003e\nNo land is alone,\u003cbr\u003e\nDon\u0026rsquo;t want, can\u0026rsquo;t leave you, Virumaa!\u003c/p\u003e\n\u003cp\u003eNot stuck at all is Järvamaa\u003cbr\u003e\nif the field is black waiting for the seed.\u003cbr\u003e\nWon\u0026rsquo;t scare us Pärnumaa\u0026rsquo;s\u003cbr\u003e\nstory of getting lost in the native forest.\u003cbr\u003e\nMaybe wisdom-nourishing Tartumaa\u003cbr\u003e\nknows what a man\u0026rsquo;s mind is?\u003cbr\u003e\nHow long can Võrumaa\u003cbr\u003e\nstay on the right track?\u003c/p\u003e\n\u003cp\u003eDon\u0026rsquo;t want, can\u0026rsquo;t, can\u0026rsquo;t leave you, Virumaa!\u003c/p\u003e\n\u003cp\u003eOnly nature knows, the fatherland knows -\u003cbr\u003e\nwe have to help each other\u003cbr\u003e\nNo land is alone,\u003cbr\u003e\nDon\u0026rsquo;t want, can\u0026rsquo;t leave you, Virumaa!\u003c/p\u003e\n\u003cp\u003eWill it still be the case that Mulgimaa\u003cbr\u003e\ndoes not allow itself to be pruned?\u003cbr\u003e\nIs silence-guarding Valgamaa\u003cbr\u003e\nin union with the shouters?\u003cbr\u003e\nIf all springs in Virumaa\u003cbr\u003e\nwith clear water remain clean\u003cbr\u003e\nthen I dare say\u003cbr\u003e\nthat I live in my own country.\u003c/p\u003e\n\u003cp\u003eOnly nature knows, the motherland knows -\u003cbr\u003e\nwe have to help each other\u003cbr\u003e\nNo land is alone,\u003cbr\u003e\nI don\u0026rsquo;t want to, I can\u0026rsquo;t leave you, Virumaa!\u003c/p\u003e\n\u003cp\u003eNo land is alone!\u003c/p\u003e\n\u003cp\u003eOnly nature knows, the motherland knows -\u003cbr\u003e\nwe have to help each other\u003cbr\u003e\nNo land is alone,\u003cbr\u003e\nI don\u0026rsquo;t want to, I can\u0026rsquo;t leave you, Virumaa!\u003c/p\u003e\n\u003cp\u003eNo land is alone\u0026hellip;\u003cbr\u003e\nNo land is alone\u0026hellip;\u003cbr\u003e\nNo land is alone\u0026hellip;\u003c/p\u003e\n\u003cp\u003e2015 griff eine Gruppe von jungen Satirikerinnen und Satiriker den Song auf und veröffentlichte eine Version, in der die auch in Estland anzutreffende Intoleranz gegenüber Nicht-Esten aufgegriffen wird:\u003c/p\u003e\n\u003c!-- raw HTML omitted --\u003e\n\u003cp\u003eSo be it that in Saaremaa\u003cbr\u003e\nno integration is to ever happen.\u003cbr\u003e\nNext to it, Hiiumaa feels\u003cbr\u003e\nthat it might not hate enough.\u003cbr\u003e\nA few negroes in Läänemaa.\u003cbr\u003e\ncan be found in beach reeds,\u003cbr\u003e\nThey were beaten there by Harjumaa\u003cbr\u003e\nas zero\u0026rsquo;s our quota!\u003c/p\u003e\n\u003cp\u003eDon\u0026rsquo;t want, won\u0026rsquo;t and can\u0026rsquo;t - close the borders at Virumaa!\u003c/p\u003e\n\u003cp\u003eOnly nature knows, the fatherland knows -\u003cbr\u003e\na nigger\u0026rsquo;s place is in Africa!\u003cbr\u003e\nFar away there, we can tolerate them\u003cbr\u003e\nand every other animal species too!\u003c/p\u003e\n\u003cp\u003eNo issues in Järvamaa,\u003cbr\u003e\neven the dirt there isn\u0026rsquo;t very black.\u003cbr\u003e\nEven more active is Pärnumaa\u003cbr\u003e\neven black bread is shown the door.\u003cbr\u003e\nKnows wisdom-nourishing Tartumaa\u003cbr\u003e\nthat Islam is a\u0026hellip; mushroom?\u003cbr\u003e\nWhat to do, wonders Võrumaa\u003cbr\u003e\nif the black is a Chechen?\u003c/p\u003e\n\u003cp\u003eDon\u0026rsquo;t even know or care - ah, all the same Negro land!\u003c/p\u003e\n\u003cp\u003eOnly nature knows, the fatherland knows -\u003cbr\u003e\nthey like to blow themselves up!\u003cbr\u003e\nOur race is endangered, Kristiina too\u003cbr\u003e\nIt\u0026rsquo;s not racism, just pure logic!\u003c/p\u003e\n\u003cp\u003eIt won\u0026rsquo;t remain that Mulgimaa\u003cbr\u003e\nmerely despises the foreign language!\u003cbr\u003e\nSo too, proudly announces Valgamaa\u003cbr\u003e\nthat it can rage diversely.\u003cbr\u003e\nIf Russophobia in Virumaa\u003cbr\u003e\ngoes hand-in-hand with homophobia\u003cbr\u003e\nonly then dare I say\u003cbr\u003e\nthat I live in my own country.\u003c/p\u003e\n\u003cp\u003eOnly nature knows, the motherland knows -\u003cbr\u003e\nwe like to hate everything!\u003cbr\u003e\nWhen someone laughs, when water boils\u003cbr\u003e\nor when anyone does anything at all!\u003c/p\u003e\n\u003cp\u003eThere\u0026rsquo;s only one creature even worse\u0026hellip;\u003c/p\u003e\n\u003cp\u003e|AUTHOR|tamarue|DATE|1726322540|CATEGORIES|3,7,9|\u003c/p\u003e\n"
+        },
+        {
+            "title": "Glücksfall am Sonntagmorgen",
+            "date_published": "2024-09-08T20:24:11Z",
+            "date_modified": "2024-09-08T20:24:11Z",
+            "id": "http://localhost:1313/hugo/posts/240908-glucksfall-am-sonntagmorgen/",
+            "url": "http://localhost:1313/hugo/posts/240908-glucksfall-am-sonntagmorgen/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cp\u003eManchmal wird man gefunden.\u003cbr\u003e\nNachdem ich in den letzten Tagen mein \u003ca href=\"https://www.fr.de/kultur/literatur/ralf-rothmann-theorie-des-regens-an-die-bauzaeune-der-zukunft-gemalt-92255110.html\"\u003eGenussbuch des Jahres\u003c/a\u003e  (ja, auch, wenn wir erst September haben) lesen durfte, fand mich heute die \u003ca href=\"https://www.aijasakova.com/de\"\u003eWebsite einer estnischen Germanistin\u003c/a\u003e einer estnischen Germanistin, die Ralf Rothmann klug interviewt hat. So obskur diese Mischung erscheint, so nah liegen Estland und der Klang, ich kann mich kaum zurückhalten, \u003cem\u003eSound\u003c/em\u003e zu schreiben, von Rothmanns Schreiben beieinander.\u003cbr\u003e\nIn beiden ist etwas bewahrt. Mir bewahrt.\u003c/p\u003e\n\u003cp\u003eEins führt zum anderen: Aija Sakova hat auch \u003ca href=\"https://www.aijasakova.com/blog/uber-meinen-weg-zur-deutschen-sprache-und-literatur\"\u003eder Baltischen Stunde ein Interview\u003c/a\u003e gegeben,  einer Radiosendung zu Estland, Lettland und Litauen. Gegründet im Jahr 2000 als Projekt des Vereins INFOBALT, Bremen. Gesendet im Offenen Kanal Bremen (Bürgerradio) auf UKW 92,5, im Kabelnetz und per Internet Live-Stream. Redaktion und Konzept: Albert Caspari.\u003c/p\u003e\n\u003cp\u003eZudem Anwärterin auf den Preis für \u003ca href=\"www.baltische-stunde.de\"\u003edie gruseligste Website\u003c/a\u003e seit den 90ern, die dabei nicht mal auf animated GIFs zurückgreifen muss, um Besuchern das Fürchten zu lehren.\u003c/p\u003e\n"
+        },
+        {
+            "title": "Heimat",
+            "date_published": "2024-09-07T20:32:32Z",
+            "date_modified": "2024-09-07T20:32:32Z",
+            "id": "http://localhost:1313/hugo/posts/240907-heimat/",
+            "url": "http://localhost:1313/hugo/posts/240907-heimat/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003eWer so etwas braucht wie einen Ort, eine Heimat, eine Nation, der ist gar nicht richtig auf der Welt. Es gibt andere Wurzeln.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eRalf Rothmann 2018 in einem \u003ca href=\"https://www.spiegel.de/spiegel/bestseller-autor-ralf-rothmann-ueber-seine-familiengeschichte-a-1205343.html%5DInterview%5B/url%5D.%7CAUTHOR%7Ctamarue%7CDATE%7C1725722267%7CCATEGORIES%7C2%7C\"\u003eInterview\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
+            "title": "Stil",
+            "date_published": "2024-09-05T20:52:26Z",
+            "date_modified": "2024-09-05T20:52:26Z",
+            "id": "http://localhost:1313/hugo/posts/240905-stil/",
+            "url": "http://localhost:1313/hugo/posts/240905-stil/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e„Style—to renounce all but the essential, so that the essential may speak.“\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003ca href=\"https://www.amazon.de/dp/0880012188?ref_=as_li_ss_tl\u0026amp;language=en_US\u0026amp;linkCode=gs2\u0026amp;linkId=513eb3a72e54d0f688261fc308be985f\u0026amp;tag=jamesclear0c-21%5DQuelle%5B/url%5D%7C\"\u003eQuelle\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
+            "title": "Selbstwert",
+            "date_published": "2024-09-05T20:50:08Z",
+            "date_modified": "2024-09-05T20:50:08Z",
+            "id": "http://localhost:1313/hugo/posts/240905-selbstwert/",
+            "url": "http://localhost:1313/hugo/posts/240905-selbstwert/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\u003cblockquote\u003e\n\u003cp\u003e„If I am worth anything later, I am worth something now. For wheat is wheat, even if people think it is a grass in the beginning.“\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eVincent von Gogh (verkaufte zu Lebzeiten ein einziges Bild)\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://www.amazon.de/dp/0140446745?ref_=as_li_ss_tl\u0026amp;language=en_US\u0026amp;linkCode=gs2\u0026amp;linkId=5971d1cc5250d6c18dba387557d3fe7e\u0026amp;tag=jamesclear0c-21%5DQuelle%5B/url%5D%7CAUTHOR%7Ctamarue%7CDATE%7C1725567416%7CCATEGORIES%7C10%7C\"\u003eQuelle\u003c/a\u003e\u003c/p\u003e\n"
+        },
+        {
+            "title": "Inspiration Porn",
+            "date_published": "2024-08-26T20:54:32Z",
+            "date_modified": "2024-08-26T20:54:32Z",
+            "id": "http://localhost:1313/hugo/posts/240826-inspiration-porn/",
+            "url": "http://localhost:1313/hugo/posts/240826-inspiration-porn/",
+            "authors": [
+                {
+                  "name": "tamarue"
+                }
+            ],
+            "content_html": "\n    \u003cdiv style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;\"\u003e\n      \u003ciframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" loading=\"eager\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/jnI4CYJWLPg?autoplay=0\u0026amp;controls=1\u0026amp;end=0\u0026amp;loop=0\u0026amp;mute=0\u0026amp;start=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;\" title=\"YouTube video\"\u003e\u003c/iframe\u003e\n    \u003c/div\u003e\n\n"
         }
         ]
 }

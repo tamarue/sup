@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kollektanee auf Txtur</title>
+    <link>http://txtur.de/hugo/categories/kollektanee/</link>
+    <description>Aktuelle Inhalte in Kollektanee auf Txtur</description>
+    <generator>Hugo</generator>
+    <language>de-De</language>
+    <lastBuildDate>Sat, 04 Mar 2023 20:51:58 +0000</lastBuildDate>
+      <atom:link href="http://txtur.de/hugo/categories/kollektanee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Philosophie - Religion</title>
+      <link>http://txtur.de/hugo/posts/230304-philosophie---religion/</link>
+      <pubDate>Sat, 04 Mar 2023 20:51:58 +0000</pubDate>
+      <guid>http://txtur.de/hugo/posts/230304-philosophie---religion/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;„Die Philosophie ist eine Ellipse. Das eine Zentrum, dem wir jetzt näher sind, ist das Selbstgesetz der Vernunft. Das andere die Idee des Universums und in diesem berührt sich die Philosophie mit der Religion [Friedrich Schlegel]“&lt;br&gt;&#xA;Cees Nooteboom, Saigoku - Auf Japans Pilgerweg der 33 Tempel, 2013&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+name = "Zen"
+description = "A solid base for your custom Hugo theme. Care has been taken to produce semantic and accessible code."
+homepage = "https://github.com/frjo/hugo-theme-zen"
+demosite = "https://zen-demo.xdeb.org/"
+license = "GPLv2"
+licenselink = "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+tags = ["accessible", "multilingual", "responsive", "blog", "search", "math", "podcast"]
+features = ["accessible", "multilingual", "responsive", "grid", "sass", "search", "matomo", "jsonfeed", "math", "podcast"]
+min_version = "0.124.0"
+
+[author]
+  name = "Fredrik Jonsson"
+  homepage = "https://xdeb.net/"
+
+[original]
+  name = "Drupal zen base theme"
+  homepage = "https://www.drupal.org/project/zen"
+  repo = "https://cgit.drupalcode.org/zen"

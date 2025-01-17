@@ -1,0 +1,22 @@
+extends:
+  - stylelint-config-standard-scss
+rules:
+  block-no-empty: null
+  declaration-block-no-redundant-longhand-properties: null
+  declaration-empty-line-before: null
+  no-descending-specificity: null
+  selector-class-pattern:
+    - "^[a-z0-9\\-]+$"
+    - message: Selector should be written in lowercase with hyphens (selector-class-pattern)
+  scss/at-mixin-argumentless-call-parentheses: null
+  scss/comment-no-empty: null
+  scss/double-slash-comment-empty-line-before:
+    - always
+    - except:
+        - first-nested
+      ignore:
+        - between-comments
+        - stylelint-commands
+        - inside-block
+  scss/no-global-function-names: null
+  scss/percent-placeholder-pattern: null

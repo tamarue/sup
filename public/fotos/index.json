@@ -3,16 +3,16 @@
     "version": "https://jsonfeed.org/version/1.1",
     "title": "Fotos auf Stille und Papier",
     "description": "Aktuelle Inhalte in Fotos auf Stille und Papier",
-    "home_page_url": "https://tamarue.github.io/sup/",
-    "feed_url": "https://tamarue.github.io/sup/fotos/index.json",
+    "home_page_url": "http://localhost:55294/public/",
+    "feed_url": "http://localhost:55294/public/fotos/index.json",
     "language": "de-DE",
-    "icon": "https://tamarue.github.io/sup/apple-touch-icon.png",
-    "favicon": "https://tamarue.github.io/sup/apple-touch-icon.png",
+    "icon": "http://localhost:55294/public/apple-touch-icon.png",
+    "favicon": "http://localhost:55294/public/apple-touch-icon.png",
     "authors": [
         {
             "name": "tamarue",
             "url": "https://example.org/somepage",
-            "avatar": "https://tamarue.github.io/sup/path/to/some-image.jpg"
+            "avatar": "http://localhost:55294/public/path/to/some-image.jpg"
         }
     ],
     "items": [

@@ -1,0 +1,10 @@
+// Language selector
+
+.language-selector {
+  display: flex;
+}
+
+.language-icon {
+  @include margin-inline-end(.5);
+  fill: var(--color-text);
+}

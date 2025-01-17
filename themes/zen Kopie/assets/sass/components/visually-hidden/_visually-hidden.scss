@@ -1,0 +1,16 @@
+// Visually hidden
+//
+// Make an element visually hidden, but accessible to screen readers, etc.
+
+.visually-hidden,
+%visually-hidden {
+  &:not(:focus, :active) {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}

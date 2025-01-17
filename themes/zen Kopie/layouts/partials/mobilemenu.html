@@ -1,0 +1,22 @@
+<div class="mobile-nav" dir="ltr">
+  <div class="mobile-nav__cover"></div>
+  <button class="mobile-nav__toggle{{ if $.Param "mobilemenuoutline" }} button--outline{{ end }}" aria-expanded="false" aria-controls="sheet">
+    {{ i18n "menu_mobile" }}
+    <svg class="mobile-nav__hamburger" viewBox="0 0 100 100" focusable="false" aria-hidden="true">
+      <rect width="80" height="12" x="10" y="20" rx="5"></rect>
+      <rect width="80" height="12" x="10" y="45" rx="5"></rect>
+      <rect width="80" height="12" x="10" y="70" rx="5"></rect>
+    </svg>
+  </button>
+  <div class="mobile-nav__sheet link-inverted link-nav" id="sheet" aria-hidden="true">
+    <div class="mobile-nav__region">{{ if hugo.IsMultilingual }}{{ partial "language-selector.html" . }}{{ end }}</div>
+    <nav class="mobile-nav__main-menu" aria-label="{{ i18n "menu_title" }}">
+    <ul class="mobile-nav__navbar">
+    {{ $currentPage := . -}}
+    {{ range site.Menus.main -}}
+    <li><a href="{{ .URL | relLangURL }}"{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Pre }}<span>{{ .Name }}</span>{{ .Post }}</a></li>
+    {{ end -}}
+    </ul>
+    </nav>
+  </div>
+</div>

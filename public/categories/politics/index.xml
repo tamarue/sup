@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Politics auf Txtur</title>
+    <link>http://txtur.de/hugo/categories/politics/</link>
+    <description>Aktuelle Inhalte in Politics auf Txtur</description>
+    <generator>Hugo</generator>
+    <language>de-De</language>
+    <lastBuildDate>Sat, 14 Dec 2024 15:59:25 +0000</lastBuildDate>
+      <atom:link href="http://txtur.de/hugo/categories/politics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stimme der Vernunft</title>
+      <link>http://txtur.de/hugo/posts/241214-stimme-der-vernunft/</link>
+      <pubDate>Sat, 14 Dec 2024 15:59:25 +0000</pubDate>
+      <guid>http://txtur.de/hugo/posts/241214-stimme-der-vernunft/</guid>
+      <description>&lt;p&gt;Podcast &lt;em&gt;Lage der Nation&lt;/em&gt;:&lt;br&gt;&#xA;&lt;a href=&#34;https://lagedernation.org/podcast/ldn406-schutz-juedischer-menschen-warum-der-bundestag-irr&#34;&gt;Schutz jüdischer Menschen – warum der Bundestag irrt&lt;/a&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Humor - Analyse - Act local</title>
+      <link>http://txtur.de/hugo/posts/241116-humor---analyse---act-local/</link>
+      <pubDate>Sat, 16 Nov 2024 19:00:09 +0000</pubDate>
+      <guid>http://txtur.de/hugo/posts/241116-humor---analyse---act-local/</guid>
+      <description>&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/LU2atCWyAos?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;</description>
+    </item>
+    <item>
+      <title>No Pasaran</title>
+      <link>http://txtur.de/hugo/posts/240319-no-pasaran/</link>
+      <pubDate>Tue, 19 Mar 2024 18:39:44 +0000</pubDate>
+      <guid>http://txtur.de/hugo/posts/240319-no-pasaran/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://overcast.fm/+GNwmjbq74&#34;&gt;Podcast WDR 5: Susan Neiman - Politisch links&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/pPq8ltr-w94?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;</description>
+    </item>
+    <item>
+      <title>Bauernschläue</title>
+      <link>http://txtur.de/hugo/posts/240309-bauernschlaue/</link>
+      <pubDate>Sat, 09 Mar 2024 18:41:40 +0000</pubDate>
+      <guid>http://txtur.de/hugo/posts/240309-bauernschlaue/</guid>
+      <description>&lt;p&gt;Es ist ja immer wieder gern von der sprichwörtlichen Bauernschläue die Rede.&lt;br&gt;&#xA;Vielleicht sollten wir anfangen, über das reale Gegenstück zu sprechen.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>
